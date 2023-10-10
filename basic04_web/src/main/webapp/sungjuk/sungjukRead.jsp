@@ -102,7 +102,7 @@
 			</tr>
 			</table>
 			<br><br>
-			<a href="sungukUpdate.jsp?sno=<%=sno%>">[수정]</a>
+			<a href="sungjukUpdate.jsp?sno=<%=sno%>">[수정]</a>
 			&nbsp; &nbsp;
 			<a href="sungjukDel.jsp?sno=<%=sno%>">[삭제]</a>
 <%
