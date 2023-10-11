@@ -11,12 +11,13 @@ public class SungjukDTO { //Data Transfer Object 전송객체
 	private int mat;
 	private int aver;
 	private String addr;
-	private String date;
+	private String wdate;
 	
 	//기본생성자 default constructor
 	public SungjukDTO() {}
-
+	
 	//private 멤버변수 각각에 대한 getter와 setter함수 작성
+
 	public int getSno() {
 		return sno;
 	}
@@ -73,18 +74,18 @@ public class SungjukDTO { //Data Transfer Object 전송객체
 		this.addr = addr;
 	}
 
-	public String getdate() {
-		return date;
+	public String getWdate() {
+		return wdate;
 	}
 
-	public void setdate(String date) {
-		this.date = date;
+	public void setWdate(String wdate) {
+		this.wdate = wdate;
 	}
 
 	@Override
 	public String toString() {
 		return "SungjukDTO [sno=" + sno + ", uname=" + uname + ", kor=" + kor + ", eng=" + eng + ", mat=" + mat
-				+ ", aver=" + aver + ", addr=" + addr + ", date=" + date + "]";
+				+ ", aver=" + aver + ", addr=" + addr + ", wdate=" + wdate + "]";
 	}
 	
 }//class end
