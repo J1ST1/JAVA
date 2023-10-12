@@ -66,6 +66,7 @@ public class SungjukDTO { //Data Transfer Object 전송객체
 		this.aver = aver;
 	}
 
+	
 	public String getAddr() {
 		return addr;
 	}
